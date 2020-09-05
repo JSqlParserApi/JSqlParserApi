@@ -1,5 +1,16 @@
+#JSqlParserApi
+
+## Listen:
+```
+./gradlew bootRun
+```
 
 ## SQL to JSqlParser JSON:
+
+### Path:
+```
+POST /sqltojson
+```
 
 ### Request example:
 ```
@@ -9,6 +20,11 @@ localhost:8080/sqltojson
 ```
 
 ## JSqlParser JSON to SQL:
+
+### Path:
+```
+POST /jsontosql
+```
 
 ### Request example:
 ```
